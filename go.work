@@ -1,0 +1,9 @@
+go 1.22.7
+
+use (
+	.
+)
+
+replace nostr.mleku.dev => ../nostr.mleku.dev
+replace util.mleku.dev => ../util.mleku.dev
+replace eventstore.mleku.dev => ../eventstore.mleku.dev
