@@ -3,10 +3,7 @@ package ratel
 import (
 	"fmt"
 
-	"eventstore.mleku.dev"
-	"github.com/dgraph-io/badger/v4"
 	sha256 "github.com/minio/sha256-simd"
-	. "nostr.mleku.dev"
 	"nostr.mleku.dev/codec/event"
 	"nostr.mleku.dev/codec/eventid"
 	"nostr.mleku.dev/codec/timestamp"
@@ -15,6 +12,7 @@ import (
 	"ratel.mleku.dev/keys/id"
 	"ratel.mleku.dev/keys/index"
 	"ratel.mleku.dev/keys/serial"
+	eventstore "store.mleku.dev"
 )
 
 func (r *T) SaveEvent(c Ctx, ev *event.T) (err E) {

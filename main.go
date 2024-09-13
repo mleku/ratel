@@ -5,11 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"eventstore.mleku.dev"
-	"github.com/dgraph-io/badger/v4"
-	. "nostr.mleku.dev"
 	"ratel.mleku.dev/keys/index"
 	"ratel.mleku.dev/keys/serial"
+	eventstore "store.mleku.dev"
 	"util.mleku.dev/context"
 )
 

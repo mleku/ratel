@@ -1,13 +1,12 @@
 package ratel
 
 import (
-	"eventstore.mleku.dev"
-	. "nostr.mleku.dev"
 	"ratel.mleku.dev/keys"
 	"ratel.mleku.dev/keys/arb"
 	"ratel.mleku.dev/keys/index"
 	"ratel.mleku.dev/keys/kinder"
 	"ratel.mleku.dev/keys/pubkey"
+	eventstore "store.mleku.dev"
 	"util.mleku.dev/hex"
 )
 
