@@ -7,7 +7,7 @@ require (
 	github.com/dgraph-io/badger/v4 v4.3.0
 	github.com/minio/sha256-simd v1.0.1
 	lukechampine.com/frand v1.4.2
-	nostr.mleku.dev v1.0.14
+	nostr.mleku.dev v1.0.15
 	store.mleku.dev v0.0.2
 	util.mleku.dev v1.0.5
 )
